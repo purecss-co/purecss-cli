@@ -16,11 +16,11 @@ oclif example Hello World CLI
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g pcss
+$ npm install -g @purecss-co/cli
 $ pcss COMMAND
 running command...
 $ pcss (--version)
-pcss/0.0.0 darwin-arm64 node-v18.12.1
+@purecss-co/cli/0.0.1 darwin-arm64 node-v18.12.1
 $ pcss --help [COMMAND]
 USAGE
   $ pcss COMMAND
@@ -64,7 +64,7 @@ EXAMPLES
   hello friend from oclif! (./src/commands/hello/index.ts)
 ```
 
-_See code: [dist/commands/hello/index.ts](https://github.com/purecss-co/purecss-cli/blob/v0.0.0/dist/commands/hello/index.ts)_
+_See code: [dist/commands/hello/index.ts](https://github.com/purecss-co/purecss-cli/blob/v0.0.1/dist/commands/hello/index.ts)_
 
 ## `pcss hello world`
 
@@ -134,7 +134,7 @@ ARGUMENTS
   PLUGIN  Plugin to install.
 
 FLAGS
-  -f, --force    Run yarn install with force flag.
+  -f, --force    Run npm install with force flag.
   -h, --help     Show CLI help.
   -v, --verbose
 
@@ -194,7 +194,7 @@ ARGUMENTS
   PLUGIN  Plugin to install.
 
 FLAGS
-  -f, --force    Run yarn install with force flag.
+  -f, --force    Run npm install with force flag.
   -h, --help     Show CLI help.
   -v, --verbose
 
