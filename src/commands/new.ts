@@ -1,5 +1,5 @@
 import { Command } from "@oclif/core";
-import { cd, exec } from "shelljs";
+const shell = require("shelljs");
 const figlet = require("figlet");
 const { version } = require("../../package.json");
 
@@ -19,11 +19,11 @@ export default class New extends Command {
 
     const { args } = await this.parse(New);
 
-    exec(
+    shell.exec(
       `git clone git@github.com:purecss-co/purecss-template.git ${args.project}`
     );
-    cd(`${args.project}`);
-    exec("rm -rf ./.git && rm -rf ./README.md");
-    exec("npm install");
+    shell.cd(`${args.project}`);
+    shell.exec("rm -rf ./.git && rm -rf ./README.md");
+    shell.exec("npm install");
   }
 }
