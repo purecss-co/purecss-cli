@@ -1,6 +1,6 @@
 {
   "name": "@purecss-co/cli",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "purecss.co CLI",
   "author": "Asyraf Hussin @AsyrafHussin",
   "bin": {
