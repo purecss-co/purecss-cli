@@ -134,7 +134,7 @@ ARGUMENTS
   PLUGIN  Plugin to install.
 
 FLAGS
-  -f, --force    Run npm install with force flag.
+  -f, --force    Run yarn install with force flag.
   -h, --help     Show CLI help.
   -v, --verbose
 
@@ -194,7 +194,7 @@ ARGUMENTS
   PLUGIN  Plugin to install.
 
 FLAGS
-  -f, --force    Run npm install with force flag.
+  -f, --force    Run yarn install with force flag.
   -h, --help     Show CLI help.
   -v, --verbose
 
