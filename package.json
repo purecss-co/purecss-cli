@@ -36,7 +36,7 @@
     "eslint-config-oclif-typescript": "^1.0.3",
     "figlet": "^1.5.2",
     "mocha": "^10.1.0",
-    "oclif": "^3.2.27",
+    "oclif": "^3.4.2",
     "shelljs": "^0.8.5",
     "shx": "^0.3.4",
     "ts-node": "^10.9.1",
